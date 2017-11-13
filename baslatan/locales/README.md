@@ -1,0 +1,1 @@
+https://github.com/manjaro/grub-theme/tree/master/locales
