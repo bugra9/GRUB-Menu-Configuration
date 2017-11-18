@@ -5,6 +5,8 @@ MKDIR = mkdir -p
 OPT_DIR = /opt
 PROGRAM_DIR = ${OPT_DIR}/baslatan/grubcfg
 
+make:
+
 makedir:
 	test -d "$(DESTDIR)${PROGRAM_DIR}/baslatan" || $(MKDIR) "$(DESTDIR)${PROGRAM_DIR}/baslatan"
 	
